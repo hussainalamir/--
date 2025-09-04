@@ -28,7 +28,7 @@ body {
   text-shadow: 2px 2px #3e2f1c;
 }
 
-.main-nav button {
+.main-nav a {
   margin: 0 5px;
   padding: 8px 15px;
   background-color: #a1825d;
@@ -40,7 +40,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.main-nav button:hover {
+.main-nav a:hover {
   background-color: #c0a57c;
   transform: scale(1.1);
 }
