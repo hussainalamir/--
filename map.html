@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Epic Civilization - Map</title>
+  <link rel="stylesheet" href="map.css">
+</head>
+<body>
+
+  <!-- Header جذاب -->
+  <header class="main-header">
+    <div class="logo">
+      🏰 Epic Civilization
+    </div>
+    <nav class="main-nav">
+      <button onclick="showSection('home')">Home</button>
+      <button onclick="showSection('map')">Map</button>
+      <button onclick="showSection('city')">City</button>
+      <button onclick="showSection('info')">Info</button>
+    </nav>
+  </header>
+
+  <!-- الخريطة -->
+  <main id="map" class="section">
+    <div id="mapContainer">
+      <canvas id="mapCanvas" width="900" height="600"></canvas>
+      <div id="infoPanel">
+        <h2>Info Panel</h2>
+        <p id="infoText">Hover over a city or army to see details.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="map.js"></script>
+</body>
+</html>

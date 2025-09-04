@@ -1,0 +1,80 @@
+body {
+  font-family: "Georgia", serif;
+  background: linear-gradient(to bottom, #3e2f2f, #1a1a1a);
+  color: #f3e5ab;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  background-color: rgba(50, 35, 20, 0.9);
+  border: 3px solid #8b5a2b;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #ffcc00;
+  text-shadow: 2px 2px #3e2f2f;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #f0d58c;
+}
+
+.buttons {
+  margin: 25px 0;
+}
+
+button {
+  background-color: #8b5a2b;
+  color: #f3e5ab;
+  border: 2px solid #f3e5ab;
+  border-radius: 12px;
+  padding: 12px 25px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #a47242;
+  transform: scale(1.05);
+}
+
+.game-info {
+  background-color: rgba(70, 50, 30, 0.85);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.game-info h2 {
+  color: #ffcc00;
+  text-align: center;
+}
+
+.game-info ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-style: italic;
+  color: #d0b97c;
+}
