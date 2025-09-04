@@ -1,0 +1,43 @@
+/* نافذة الكاميرا */
+.city-map-container {
+  width: 650px;
+  height: 650px;
+  overflow: hidden; /* لإظهار جزء فقط من الماب الكبير */
+  border: 2px solid #6b4c2a;
+  position: relative;
+  margin: 20px auto;
+  background-color: #4caf50; /* أرض خضراء */
+}
+
+/* الماب الكبير */
+.city-map {
+  width: 100000px;  /* حجم الماب الكبير */
+  height: 100000px;
+  position: relative;
+  background-color: #4caf50; /* أرض خضراء */
+  cursor: grab; /* مؤشّر لسحب الماب */
+}
+
+
+
+
+
+.bush {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #228B22; /* أخضر */
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px #155515; /* يعطي إحساس بالعمق */
+}
+
+
+
+.ston {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #7f7f7f; /* رمادي */
+  border-radius: 50%; /* شكل دائري */
+  box-shadow: 1px 1px 2px #555; /* يعطي إحساس بالعمق */
+}
